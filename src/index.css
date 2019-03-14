@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mem-img{
+  cursor: pointer;
+  height: 150px;
+}
+
+.chat{
+  height: 500px;
+  
+  border: #3d8878 solid 3px;
+  border-radius: 10px;
+  overflow: scroll;
+  
+  background-color: #eaeaea;
+
+}
+.submit-mes{
+  width: 100%;
+}
+.mes-left, .mes-right{
+  width: 240px;
+  border-radius: 45px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+.mes-left{ 
+  border: 2px solid #bf2424;
+  background-color: #fbcf2a;
+  float: left;
+}
+
+.mes-right{
+  border: 2px solid #370707;
+  background-color: #7c8a7d;
+ 
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;  
+}
+.direct-chat-name {
+	font-size: 12px;
+	font-weight: 600;
+  margin: 0 0 0 10px;
+  
+	opacity: 0.9;
+}
+.direct-chat-info{ 
+  font-size: 12px;
+  text-align: right;
+}
+
+.direct-chat-text {
+  text-align: center;
+  background: #7ae6bc ;
+  
+  border-radius: 15px;
+  color: #1f2121;
+}
+
+  .write-mes{
+    width: 488px;
+    margin: 10px 10px;
+    padding: 15px;
+    background: #f1f1f1;
+    resize: none;
+  }
+  .write-mes:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .btn-sub {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  
+.btn:hover {
+    opacity: 1;
+  }
+
+  .submit-mes{
+    background-color: #70988f;
+    opacity: 0.9;
+    
+  }
